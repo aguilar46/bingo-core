@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can be rendered 1`] = `
+<div>
+  <div
+    class="c0 top-view"
+  >
+    <div
+      class="c1 main-header"
+    >
+      <button
+        class="c2 header-text"
+      >
+        BINGO: 
+        Traditional
+      </button>
+      <div
+        class="c3"
+      />
+      <button
+        class="c4 hamburger-button"
+      />
+    </div>
+    <div
+      class="c5 top-view"
+    >
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="0"
+      >
+        <div
+          class="c7"
+        >
+          0
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="1"
+      >
+        <div
+          class="c7"
+        >
+          1
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="2"
+      >
+        <div
+          class="c7"
+        >
+          2
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="3"
+      >
+        <div
+          class="c7"
+        >
+          3
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="4"
+      >
+        <div
+          class="c7"
+        >
+          4
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="5"
+      >
+        <div
+          class="c7"
+        >
+          5
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="6"
+      >
+        <div
+          class="c7"
+        >
+          6
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="7"
+      >
+        <div
+          class="c7"
+        >
+          7
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="8"
+      >
+        <div
+          class="c7"
+        >
+          8
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="9"
+      >
+        <div
+          class="c7"
+        >
+          9
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="10"
+      >
+        <div
+          class="c7"
+        >
+          10
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="11"
+      >
+        <div
+          class="c7"
+        >
+          11
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="Free Space"
+      >
+        <img
+          class="c8 bingo-mark"
+          clientxy="[object Object]"
+          src="test-mark"
+        />
+        <div
+          class="c7"
+        >
+          Free Space
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="13"
+      >
+        <div
+          class="c7"
+        >
+          13
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="14"
+      >
+        <div
+          class="c7"
+        >
+          14
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="15"
+      >
+        <div
+          class="c7"
+        >
+          15
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="16"
+      >
+        <div
+          class="c7"
+        >
+          16
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="17"
+      >
+        <div
+          class="c7"
+        >
+          17
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="18"
+      >
+        <div
+          class="c7"
+        >
+          18
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="19"
+      >
+        <div
+          class="c7"
+        >
+          19
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="20"
+      >
+        <div
+          class="c7"
+        >
+          20
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="21"
+      >
+        <div
+          class="c7"
+        >
+          21
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="22"
+      >
+        <div
+          class="c7"
+        >
+          22
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="23"
+      >
+        <div
+          class="c7"
+        >
+          23
+        </div>
+      </button>
+      <button
+        bingomark="test-mark"
+        class="c6 bingo-space"
+        title="24"
+      >
+        <div
+          class="c7"
+        >
+          24
+        </div>
+      </button>
+    </div>
+    <div
+      class="Toastify"
+    />
+  </div>
+</div>
+`;
