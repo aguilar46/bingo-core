@@ -1,4 +1,8 @@
-//3rd party
+/**
+ * Created by: RSP Aguilar
+ * Created: 2024
+ * Updated: 2024
+ */
 import React, { useEffect, useRef } from 'react';
 import styled from 'styled-components';
 import _ from 'lodash';
@@ -6,7 +10,8 @@ import { useAtom } from 'jotai';
 import { toBlob } from 'html-to-image';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-//local
+import PropTypes from 'prop-types';
+
 import './BingoApp.css';
 import Board from './Board';
 import { useModal } from '../util/useModal';
@@ -19,7 +24,6 @@ import InfoModal from './modal/InfoModal';
 import AboutView from './AboutView';
 import TypeModal from './modal/TypeModal';
 import BingoSpace from './BingoSpace';
-import PropTypes from 'prop-types';
 
 const TopView = styled.div`
   height: 100%;
@@ -75,7 +79,9 @@ const BingoApp = (props) => {
     OptionsModal,
     { options }
   );
-  const { modal: aboutModal, show: showAboutModal } = useModal(InfoModal);
+  const { modal: aboutModal, show: showAboutModal } = useModal(InfoModal, {
+    message: <AboutView {...appInfo} />,
+  });
   const { modal: typeModal, show: showTypeModal } = useModal(TypeModal);
 
   //init board
@@ -104,7 +110,7 @@ const BingoApp = (props) => {
           showAllOptions();
           break;
         case hamburgerReturnOptions.ABOUT:
-          showAboutModal({ message: <AboutView version={version} /> });
+          showAboutModal();
           break;
         case hamburgerReturnOptions.EXPORT:
           const blob = await toBlob(boardRef.current, { cacheBust: true });
